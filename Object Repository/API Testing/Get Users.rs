@@ -38,6 +38,23 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
+def json = &quot;&quot;&quot;
+{
+&quot;id&quot;: 1,
+&quot;name&quot;: &quot;Leanne Graham&quot;,
+&quot;username&quot;: &quot;Bret&quot;,
+&quot;email&quot;: &quot;Sincere@april.biz&quot;
+}
+&quot;&quot;&quot;
+
+JsonSlurper slurper = new JsonSlurper()
+def obj = slurper.parseText(json)
+
+assert obj['id'] instanceof Integer
+assert obj['name'] instanceof name
+assert obj['name'] instanceof username
+assert obj['name'] instanceof email
+
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

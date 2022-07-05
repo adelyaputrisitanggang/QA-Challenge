@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test suit,,,,2022-07-05 15:40:42,2022-07-05 15:40:48,5.853s,FAILED
+,,,,,,,
+Test Cases/Automation 3 - Mobile Test/Negative Case/Login with invalid email,,,,2022-07-05 15:40:43,2022-07-05 15:40:46,3.389s,FAILED
+"startApplication(""C:\Users\rvl12\git\QA-Challenge\Apps\Sample Android App Login Test.apk"", true)",,,,2022-07-05 15:40:44,2022-07-05 15:40:46,1.732s,FAILED
+,,,,,,,
+Test Cases/Automation 3 - Mobile Test/Negative Case/Register with invalid email,,,,2022-07-05 15:40:46,2022-07-05 15:40:48,1.339s,FAILED
+"startApplication(""C:\Users\rvl12\git\QA-Challenge\Apps\Sample Android App Login Test.apk"", true)",,,,2022-07-05 15:40:48,2022-07-05 15:40:48,0.056s,FAILED
